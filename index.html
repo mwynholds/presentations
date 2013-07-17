@@ -1,0 +1,207 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/startup-ucla-logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/carbonfive-logo.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Github <span class="sub">source control</span></h2>
+    </hgroup>
+    <article class="service">
+      <img class="screenshot build-current fadeout" src="images/github-screenshot.png">
+      <img class="logo" src="images/github-logo.png">
+      <div class="cost">$7/month</div>
+      <div class="build">
+        <div>
+          <p>Git</p>
+          <ul>
+            <li>Track changes over time</li>
+            <li>Branch and merge features and releases</li>
+            <li>Establish simple or complex code workflows</li>
+            <li>It's what the cool kids are using</li>
+          </ul>
+        </div>
+        <div>
+          <p>Github</p>
+          <ul>
+            <li>Collaborate easily with other developers</li>
+            <li>Keep your code safely backed up</li>
+            <li>Has hooks in to lots of other services</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Pivotal Tracker <span class="sub">agile project management</span></h2>
+    </hgroup>
+    <article class="service">
+      <img class="screenshot build-current fadeout" src="images/tracker-screenshot.png">
+      <img class="logo" src="images/tracker-logo.png">
+      <div class="cost">$7/month</div>
+      <div class="build">
+        <div>
+          <p>Story Writing</p>
+          <ul>
+            <li>Fairly small features<li>
+            <li>From the perspective of the end user</li>
+            <li>With detailed acceptance criteria</li>
+          </ul>
+        </div>
+        <div>
+          <p>Estimation</p>
+          <ul>
+            <li>Level of effort rating, relative to other stories</li>
+            <li>Set by consensus, by developers</li>
+          </ul>
+        </div>
+        <div>
+          <p>Prioritization</p>
+          <ul>
+            <li>What gets done first</li>
+            <li>Set by product owner</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Heroku <span class="sub">cloud deployment</span></h2>
+    </hgroup>
+    <article class="service">
+      <img class="logo" src="images/heroku-logo.png">
+      <img class="screenshot build-current fadeout" src="images/heroku-screenshot.png">
+      <div class="cost">free!</div>
+      <div class="build">
+        <ul>
+          <li>Blah</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Boardroom <span class="sub">brainstorming and collaboration</span></h2>
+    </hgroup>
+    <article class="service">
+      <img class="logo" src="images/carbonfive-logo.png">
+      <img class="screenshot build-current fadeout" src="images/boardroom-screenshot.png">
+      <div class="cost">free!</div>
+      <div class="build">
+        <div>
+          <p>Story Mapping</p>
+          <ul>
+            <li>Group stories in to Activities</li>
+            <li>See project status at a glance</li>
+          </ul>
+        </div>
+        <div>
+          <p>Reflections</p>
+          <ul>
+            <li>I like...</li>
+            <li>I wish...</li>
+            <li>We should...</li>
+          </ul>
+        </div>
+        <div>
+          <p>Validation Board</p>
+          <ul>
+            <li>Identify your riskiest assumption</li>
+            <li>Validate and pivot or continue</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>CircleCI <span class="sub">continuous deployment</span></h2>
+    </hgroup>
+    <article class="service">
+      <img class="logo" src="images/circleci-logo.jpg">
+      <img class="screenshot build-current fadeout" src="images/circleci-screenshot.png">
+      <div class="cost">$19/month</div>
+      <div class="build">
+        <div>
+          <p>Continuous Integration</p>
+          <ul>
+            <li>Automatically run your test suite in the cloud</li>
+            <li>Get notifications (blame!) when something breaks</li>
+          </ul>
+        </div>
+        <div>
+          <p>Continuous Deployment</p>
+          <ul>
+            <li>Automatically deploy when a build is successful</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/carbonfive-logo.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>The End</h2>
+      <p>thanks for playing!</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
