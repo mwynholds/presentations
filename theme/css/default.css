@@ -1511,9 +1511,14 @@ h2 .sub {
   padding-left: 10px;
 }
 
+article.service div.url {
+  font-size: 75%;
+  padding-left: 24px;
+}
+
 article.service img.logo {
   position: absolute;
-  top 0;
+  top: 170px;
   right: 100px;
   width: 200px;
 }
